@@ -15,6 +15,7 @@ plt.show()
 
 #printing color image of an image
 img2 = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
+hsv_image = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)  
 plt.imshow(img2)                                    ## original image               ## Convert BGR to RGB image
 plt.show()
 #printing hsv image of an image
